@@ -1,0 +1,105 @@
+.thirdWrap {
+  border-radius: 6px;
+  width: 846px;
+  height: 80px;
+  background: linear-gradient(45deg, #2d2d48 0%, #343455 100%);
+  display: flex;
+  align-items: center;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  width: 24px;
+  height: 24px;
+  margin-left: 42px;
+  cursor: pointer;
+}
+
+.checkAnonymous {
+  font-weight: 300;
+  font-size: 14px;
+  color: #7b7aae;
+  margin-right: 300px;
+  margin-left: 10px;
+}
+
+.checkActive {
+  color: #d2cfde;
+}
+
+.actionWrap {
+  display: flex;
+  gap: 30px;
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  fill: #7b7aae;
+  gap: 20px;
+}
+
+.nextAction {
+  display: flex;
+  gap: 30px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  fill: #7b7aae;
+  background-color: #2e2e4b;
+}
+
+.listItem:first-child {
+  transform: rotateZ(45deg);
+}
+
+.firstIcon {
+  width: 24px;
+  height: 24px;
+  fill: inherit;
+  cursor: pointer;
+}
+
+.activeOne {
+  fill: #fff;
+}
+
+.active {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  fill: #fff;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #2e2e4b;
+  border: none;
+}
+
+.btn:active,
+.btn:hover {
+  background: linear-gradient(205deg, #e9628d 0%, #eb8567 100%);
+}
+
+.send {
+  width: 22px;
+  height: 22px;
+  fill: #7b7aae;
+  transform: rotateZ(45deg);
+}

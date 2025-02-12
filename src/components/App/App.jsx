@@ -1,5 +1,11 @@
+import PostInput from "../PostInput/PostInput.jsx";
+
 function App() {
-  return <>Hello</>;
+  return (
+    <>
+      <PostInput />
+    </>
+  );
 }
 
 export default App;
